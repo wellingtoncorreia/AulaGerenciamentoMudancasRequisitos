@@ -12,6 +12,12 @@
     padding: 0 250px;
 }
 
+.title-proj-mob{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
 .projects h2{
     margin-bottom: 40px;
 }

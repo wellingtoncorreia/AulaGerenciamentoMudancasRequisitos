@@ -9,10 +9,10 @@
         align-items: center;
         gap: 30px;
     }
-
-    .title-proj{
+   
+    h1 {
+        font-size: 2rem;
         margin: 0;
-        padding: 0;
     }
 
     h1:nth-child(2){
@@ -25,10 +25,6 @@
         text-align: center;
     }
 
-    h1 {
-        font-size: 2rem;
-        margin: 0   ;
-    }
 
     .p-title {
         width: 90%;
@@ -72,10 +68,26 @@
     .container, .projects{
         margin: 0;
         padding: 15px;
-        display: flex;
-        justify-content: space-around;
     }
 
 
 
+  }
+
+
+  @media (min-width: 300px) and (max-width:500px) {
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    .title-proj{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .title-proj-mob{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
   }
