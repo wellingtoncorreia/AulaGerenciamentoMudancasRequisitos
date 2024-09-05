@@ -75,7 +75,7 @@
   }
 
 
-  @media (min-width: 300px) and (max-width:500px) {
+  @media (min-width: 300px) and (max-width:800px) {
     h2{
         margin: 0;
         padding: 0;
